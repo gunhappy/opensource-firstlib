@@ -7,12 +7,16 @@
   "scripts": {
     "build": "tsc",
     "build:def": "tsc --declaration true --allowJS false",
+    "lint": "tslint --project .",
     "release": "standard-version --release-as"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^3.0.5",
     "standard-version": "^7.0.0",
-    "typescript": "^3.6.2"
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2",
+    "typescript-tslint-plugin": "^0.5.4"
   }
 }
