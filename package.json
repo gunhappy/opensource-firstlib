@@ -12,7 +12,8 @@
     "build:lib": "tsc",
     "build:def": "tsc --declaration true --allowJS false",
     "lint": "tslint --project .",
-    "release": "standard-version --release-as"
+    "release": "standard-version --release-as",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
