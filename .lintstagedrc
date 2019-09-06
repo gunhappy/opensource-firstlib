@@ -1,5 +1,7 @@
 {
     "*.ts": [
-        "tslint --fix"
+        "prettier --write",
+        "tslint --fix",
+        "git add"
     ]
 }
