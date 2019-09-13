@@ -4,7 +4,7 @@
     "module": "commonjs",
     "outDir": "./lib",
     "strict": true,
-    "rootDirs": ["./src"],
+    "rootDir": "./src",
     "esModuleInterop": true,
     "plugins": [{
       "name": "typescript-tslint-plugin",
